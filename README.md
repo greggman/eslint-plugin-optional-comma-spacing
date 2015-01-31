@@ -6,7 +6,14 @@
 
 ## Why Use It
 
-You'd like to optionally require spaces before or after commas.
+You'd like to optionally require spaces before or after commas. For example if you use the standard `comma-spacing`
+this will fail
+
+    longest.id         = Math.max(longest.id        , game.gameId.length);
+    longest.numPlayers = Math.max(longest.numPlayers, game.numPlayers.toString().length);
+    longest.name       = Math.max(longest.name      , game.name.length);
+
+I wanted those spaces before the commas to be optional hence this plugin.
 
 This is just a clone of the standard [comma-spacing rule](http://eslint.org/docs/rules/comma-spacing.html).
 The difference is where as the `comma-spacing` rule only has `before: true | false` and `after: true | false`
