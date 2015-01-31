@@ -2,9 +2,9 @@
 
 module.exports = {
     rules: {
-        "require-trailing-comma": require("./lib/rules/optional-comma-spacing"),
+        "optional-comma-spacing": require("./lib/rules/optional-comma-spacing"),
     },
     rulesConfig: {
-        "require-trailing-comma": 0,
+        "optional-comma-spacing": 0,
     }
 };
