@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-optional-comma-spacing",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "optionally require spaces before or after commas",
   "main": "index.js",
   "directories": {
